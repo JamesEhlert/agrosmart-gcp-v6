@@ -1,0 +1,30 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Secrets
+**/secrets*.h
+**/*.env
+**/*serviceAccount*.json
+
+# PlatformIO
+firmware/.pio/
+firmware/.pioenvs/
+firmware/.piolibdeps/
+
+# Flutter / Dart
+mobile/**/.dart_tool/
+mobile/**/.packages
+mobile/**/build/
+mobile/**/pubspec.lock
+
+# Terraform
+**/.terraform/
+**/.terraform.lock.hcl
+**/*.tfstate
+**/*.tfstate.*
